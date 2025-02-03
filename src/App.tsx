@@ -7,7 +7,7 @@ import Demo from './pages/Demo';
 
 function App() {
   return (
-    <BrowserRouter basename="/poc-gestorQR/demo">
+    <BrowserRouter basename="/poc-gestorQR">
       <Routes>
         <Route path="/" element={<Dashboard />} />
         <Route path="/table/:tableId" element={<ClientView />} />
