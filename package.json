@@ -11,7 +11,8 @@
   "preview": "vite preview --port $PORT",
   "serve": "serve -s dist",
   "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
+  "deploy": "gh-pages -d dist",
+  "start": "serve -s dist -l $PORT"
 },
   "dependencies": {
     "lucide-react": "^0.344.0",
